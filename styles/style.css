@@ -1,22 +1,21 @@
 *,
 *::before,
 *::after {
-	padding: 0;
-	margin: 0;
-	border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
   box-sizing: border-box;
-	
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 ul,
 ol,
 li {
-	list-style: none;
+  list-style: none;
 }
 img {
-	vertical-align: top;
+  vertical-align: top;
 }
 h1,
 h2,
@@ -24,19 +23,19 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: inherit;
-	font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 html,
 body {
-	height: 100%;
-	line-height: 1;
-	background: #fafafa;
-	font-size: 14px;
-	color: #252b42;
+  height: 100%;
+  line-height: 1;
   background: #fafafa;
-	font-weight: 500;
-	font-family: Montserrat;
+  font-size: 14px;
+  color: #252b42;
+  background: #fafafa;
+  font-weight: 500;
+  font-family: Montserrat;
 }
 .wrapper {
   min-height: 100%;
@@ -48,7 +47,7 @@ body {
   max-width: 1046px;
   padding: 0px 15px;
   margin: 0px auto;
-  
+
   box-sizing: content-box;
 }
 ._ibg {
@@ -61,7 +60,6 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
-
 }
 
 .header {
@@ -76,8 +74,8 @@ body {
   min-height: 104px;
   align-items: center;
 }
-@media (max-width: 479px){
-  .header__container{
+@media (max-width: 479px) {
+  .header__container {
     min-height: 70px;
   }
 }
@@ -90,17 +88,17 @@ body {
 .header__menu {
   margin: 0px 0px 0px 133px;
 }
-@media (max-width: 992px){
+@media (max-width: 992px) {
   .header__menu {
     margin: 0px 0px 0px 80px;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .header__menu {
     margin: 0px 0px 0px 50px;
   }
 }
-@media (max-width: 479px){
+@media (max-width: 479px) {
   .header__menu {
     margin: 0px 0px 0px 20px;
   }
@@ -113,7 +111,6 @@ body {
   display: flex;
 }
 .menu__item {
-  
 }
 .menu__item:not(:last-child) {
   margin: 0px 21px 0px 0px;
@@ -121,7 +118,7 @@ body {
 .menu__link {
   color: #737373;
   font-weight: 600;
-  line-height: calc(24 / 14 * 100%);
+  line-height: 171%;
 }
 /* main */
 /* ============================= */
@@ -133,10 +130,9 @@ body {
 .page__services {
   position: relative;
   z-index: 2;
-  margin:  -111px 0px 0px;
+  margin: -111px 0px 0px;
 }
 .page__advantages {
-
 }
 
 /* ===================== */
@@ -160,15 +156,13 @@ body {
   .header-block__titel {
     font-size: 35px;
   }
+}
+@media (max-width: 767px) {
+  .header-block__titel {
+    font-size: 30px;
   }
-  @media (max-width: 767px) {
-    .header-block__titel {
-      font-size: 30px;
-    }
-    }
+}
 /* ===================== */
-
-
 
 .main-block {
   position: relative;
@@ -185,32 +179,28 @@ body {
   .main-block__body {
     padding: 120px 0px 191px 0px;
   }
-
 }
 .main-block__body > *:not(:last-child) {
   margin: 0px 0px 35px 0px;
-
 }
 .main-block__titel {
   font-size: 58px;
-  line-height: calc(80 / 58 8 100);
+  line-height: 137%;
   font-weight: 800;
   letter-spacing: 0.2px;
 }
 
 @media (max-width: 479px) {
-  .main-block__titel  {
+  .main-block__titel {
     font-size: 42px;
-
   }
-
 }
 .main-block__text {
   color: #737373;
   font-size: 20px;
   line-height: 150%;
 }
-@media (max-width: 479px){
+@media (max-width: 479px) {
   .main-block__text {
     color: #090909;
   }
@@ -231,22 +221,20 @@ body {
   font-weight: 700;
   line-height: 150%;
   margin: 10px 0;
-
-
 }
-@media (max-width: 479px){
+@media (max-width: 479px) {
   .main-block__button {
     flex: 1 1 100%;
   }
 }
-@media (min-width: 479px){
+@media (min-width: 479px) {
   .main-block__button:not(:last-child) {
     margin-right: 10px;
   }
 }
 
 .main-block__button_orange {
-  background:  #ff7b47;
+  background: #ff7b47;
   color: #fff;
 }
 .main-block__button_border {
@@ -259,7 +247,6 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-
 }
 @media (max-width: 1300px) {
   .main-block__image img {
@@ -272,13 +259,11 @@ body {
   }
 }
 
-
 .services {
 }
 .services__container {
 }
 .services__body {
-  
 }
 @media (min-width: 670px) {
   .services__body {
@@ -286,26 +271,22 @@ body {
     flex-wrap: wrap;
     margin: 0 -15px;
   }
-  
 }
 .services__column {
   flex: 0 1 33.333%;
 }
 
-
-
 @media (min-width: 670px) {
   .services__column {
     padding: 0 15px;
   }
- 
 }
-@media (max-width: 992px){
+@media (max-width: 992px) {
   .services__column {
     flex: 0 1 50%;
   }
   .services__column:not(:last-child) {
-    margin: 0px 0px 30px 0px ;
+    margin: 0px 0px 30px 0px;
   }
   .services__column:last-child {
     flex: 0 1 100%;
@@ -327,7 +308,6 @@ body {
 }
 .item-services > *:not(:last-child) {
   margin: 0px 0px 10px 0px;
-
 }
 .item-services__icon {
 }
@@ -336,7 +316,6 @@ body {
   font-size: 24px;
   line-height: 133%;
   letter-spacing: 0.1px;
-
 }
 .item-services__text {
   color: #737373;
@@ -349,28 +328,22 @@ body {
   color: #fff;
 }
 .item-services__green .item-services__text {
-  color: #fff; 
+  color: #fff;
 }
-
-
-
-
-
-
 
 .advantages {
   padding: 80px 0;
 }
 @media (max-width: 992px) {
-.advantages {
-  padding: 50px 0;
-}
+  .advantages {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 762px) {
   .advantages {
     padding: 30px 0;
   }
-  }
+}
 .advantages__container {
 }
 
@@ -381,7 +354,7 @@ body {
   .advantages__header {
     margin: 0px 0px 30px 0px;
   }
-  }
+}
 .advantages__body {
   display: flex;
   flex-wrap: wrap;
@@ -436,13 +409,11 @@ body {
 @media (max-width: 993px) {
   .practice {
     padding: 40px 0px 80px 0px;
-  
   }
 }
 @media (max-width: 767px) {
   .practice {
     padding: 0px 0px 40px 0px;
-  
   }
 }
 .practice__container {
@@ -454,7 +425,6 @@ body {
 @media (max-width: 767px) {
   .practice__header {
     margin: 0px 0px 25px 0px;
-  
   }
 }
 .header-block__titel {
@@ -467,26 +437,21 @@ body {
   flex-wrap: wrap;
 }
 .practice__column {
-  padding:  0px 20px;
+  padding: 0px 20px;
   margin: 0px 0px 30px 0px;
   flex: 0 1 25%;
-
 }
 @media (max-width: 1040px) {
-.practice__column {
-  flex: 0 1 50%;
-
-}
-
+  .practice__column {
+    flex: 0 1 50%;
+  }
 }
 @media (max-width: 630px) {
   .practice__column {
     flex: 0 1 100%;
-  
   }
 }
 .practice__item {
-
 }
 .item-practice {
   background-color: #fff;
@@ -518,7 +483,6 @@ body {
 .item-practice__text {
   color: #737373;
   line-height: 142%;
-
 }
 .item-practice__image {
   display: block;
@@ -527,7 +491,9 @@ body {
 
 /* ============================================ */
 
+/* -------------------------------------------- */
+
+/* ============================================ */
 /* footer */
 .footer {
-
 }
