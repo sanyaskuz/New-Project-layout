@@ -134,6 +134,8 @@ body {
 }
 .page__advantages {
 }
+.page__subscribe {  
+}
 
 /* ===================== */
 
@@ -662,14 +664,12 @@ body {
 
 /* ============================================ */
 
-.page__subscribe {
 
-}
 .subscribe {
   position: relative;
-  padding:0px 0px 20px 0px;
+  padding:0px 0px 20px 0px; 
 }
-.subscribe ::before {
+.subscribe::before {
 content: "";
 position: absolute;
 bottom: 0;
@@ -677,24 +677,23 @@ width: 100%;
 height: 77%;
 left: 0;
 background: #252B42;
-
 }
 .subscribe__container {
 }
 .subscribe__body {
   position: relative;
   z-index: 2;
-  margin: 0px 3px;
   padding: 30px 50px;
   align-items: center;
   background: #17213c;
   border-radius: 2px;
 }
+
 .subscribe__title {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 133%;
   color: #fff;
+  font-size: 133%;
+  line-height: 32px;
+  font-weight: 700;
   letter-spacing: 0.1px;
 }
 .subscribe__form {
@@ -705,7 +704,7 @@ background: #252B42;
 }
 .subscribe__input {
   width: 100%;
-  flex: 11 auto;
+  flex: 1 1 auto;
   min-height: 58px;
   padding: 0px 20px;
   color: #737373;
@@ -720,15 +719,17 @@ background: #252B42;
   color: #090909;
 }
 .subscribe__button {
-  background: #FF7B47;
-  border: 1px solid #E6E6E6;
+  background: #ff7b47;
+  border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
   display: flex;
   min-height: 58px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   text-align: center;
   color: #fff;
+  transition: all 0.3s ease 0s;
   padding: 0px 22px;
 }
 @media (min-width: 1070px){
@@ -737,19 +738,15 @@ background: #252B42;
   }
 }
 @media (min-width: 810px) {
-  .subscribe__body{
+  .subscribe__body {
     display: flex;
     justify-content: space-between;
-
   }
-  .subscribe__title {
-    max-width: 256px;
-  }
-
 }
 @media (max-width: 810px)  {
   .subscribe__title {
     margin: 0px 0px 20px 0px;
+    max-width: 256px;
   }
   .subscribe__body{
     margin: 0px -15px;
